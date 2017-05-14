@@ -1,4 +1,0 @@
-[submodule "dist"]
-	path = doc/html
-	url = https://github.com/Sunxfancy/Seityan-web.git
-	branch = gh-pages
