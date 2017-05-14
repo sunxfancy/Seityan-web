@@ -1,0 +1,30 @@
+{
+  "name": "seityan",
+  "version": "1.1.1",
+  "description": "Seityan - a desktop assistant",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "cd dist && electron .",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": "https://github.com/Sunxfancy/Seityan-web",
+  "devDependencies": {
+    "@types/pixi.js": "^4.4.4",
+    "@types/rimraf": "0.0.28",
+    "@types/webpack-env": "^1.13.0",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "pixi-live2d": "git://github.com/sunxfancy/pixi-live2d",
+    "pixi.js": "^4.5.1",
+    "reflect-metadata": "^0.1.10",
+    "rimraf": "^2.6.1",
+    "uuid": "^3.0.1"
+  }
+}

@@ -1,0 +1,33 @@
+<html>
+<head>
+    <header name = "Access-Control-Allow-Origin" value = "*" ></header>
+    <header name="Access-Control-Allow-Headers" value="Origin, Accept, X-Requested-With, Content-Type, If-Modified-Since" ></header>
+    <header name="Access-Control-Allow-Methods" value="GET, OPTIONS, HEAD" ></header>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"  />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app"></div>
+    <audio id="live2d-audio" crossorigin="anonymous"></audio>
+    <script type="text/javascript" src="lib/live2d.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="lib/tts/fingerprint.js" charset="utf-8"></script>
+    <script type="text/javascript" src="lib/tts/tts.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="lib/iat/fingerprint2.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="lib/iat/iat.all.js" charset="utf-8"></script>
+    <script type="text/javascript" src="lib/vad.js"></script>
+    <!-- These are the two JavaScript files you must load in the HTML for pocketsphinx.js,
+         The recognizer is loaded through a Web Worker -->
+    <script src="lib/pocketsphinx/audioRecorder.js"></script>
+    <script src="lib/pocketsphinx/callbackManager.js"></script>
+
+    <script type="text/javascript" src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
